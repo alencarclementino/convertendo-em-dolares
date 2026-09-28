@@ -1,8 +1,8 @@
 public class convertendoemdolares {
     public static void main(String[] args) {
-        double dolar = 1;
+        double dolar = 6;
         double real = 4.94;
         double total = (dolar * real);
-        System.out.println("O dólar em reais está R$4,94. Se eu converter $" + dolar + " dólares em reais, eu terei R$" + total);
+        System.out.println("$" + dolar + ". Em reais vai dar " + total);
     }
 }
